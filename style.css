@@ -79,6 +79,11 @@ p {
   margin: 10px;
 }
 
+.btn {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .email-link {
   display: flex;
   justify-content: center;
@@ -117,6 +122,53 @@ img {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-#contact {
-  padding-top: 50px;
+footer {
+  margin-top: 20px;
+  color: #6c63ff;
 }
+
+#contact {
+  padding: 50px 0px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-family: 1em;
+  }
+
+  .email-link {
+    font-size: 1.5em;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  h2 {
+    justify-content: center;
+  }
+
+  .btn {
+    display: unset;
+  }
+
+  .navigation-links {
+    margin: 10px;
+  }
+
+  .apps {
+    padding-top: 10px;
+  }
+
+  .apps .col-md-6 {
+    padding: 15px;
+  }
+} ;
